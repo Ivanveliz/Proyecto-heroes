@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- style -->
+    <link rel="stylesheet" href="/style.css">
+    <title>Heroes Fitness Club</title>
+</head>
+
+<body>
+    <div class="container-hero">
+        <header>
+            <div class="container-header">
+
+                <div class="container-logo">
+                    <a href="#">
+                        <img src="./img/transparente-heroes.png" alt="logo" height="200">
+                    </a>
+                </div>
+                <div class="container-nav">
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#quienes-somos">Quienes Somos</a></li>
+                        <li><a href="#nuestras-clases">Nuestras Clases</a></li>
+                        <li><a href="#contacto">Contactanos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="container-button-h1">
+            <h1>BE MORE <span class="hero">HERO</span></h1>
+            <button class="button-join">Unite HOY!</button>
+        </div>
+    </div>
+    </div>
+    <section class="quienes-somos" id="quienes-somos">
+        <div class="container-quienes-somos">
+            <div class="container-h2-p">
+                <h2>Acerca de nosotros</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora recusandae ullam, esse dolore quo
+                    nam earum neque odio fuga debitis! Voluptatem in perferendis commodi dignissimos, dolorum
+                    consequuntur cumque quae, minima magnam molestias quod laboriosam aliquam unde sint nisi nihil eius
+                    veniam itaque quaerat provident? Accusantium consectetur a adipisci temporibus minus.Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Tempora recusandae ullam, esse dolore quo
+                    nam earum neque odio fuga debitis! Voluptatem in perferendis commodi dignissimos, dolorum
+                    consequuntur cumque quae, minima magnam molestias quod laboriosam aliquam unde sint nisi nihil eius
+                    veniam itaque quaerat provident? Accusantium consectetur a adipisci temporibus minus.</p>
+            </div>
+            <div class="container-pictures-section">
+
+                <div class="img-section picture1">
+                    <img class="img-section-1" src="./img/4.png" alt="" width="400px">
+                </div>
+                <div class="container-picture2">
+                    <div class="img-section picture2">
+                        <img src="./img/5.png" alt="" width="400px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="nuestras-clases" id="nuestras-clases">
+        <h2>Nuestras clases</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus ipsum nulla repellendus deserunt
+            officiis nesciunt, ex quasi animi obcaecati omnis.
+        </p>
+        <div class="container-cards">
+            <div class="container-card-class">
+                <img src="./img/crossfit.png" alt="cross" >
+                <h3>CrossTraining</h3>
+            </div>
+            <div class="container-card-class">
+                <img src="./img/cardio.jpg" alt="cardio" >
+                <h3>Cardio</h3>
+            </div>
+            <div class="container-card-class">
+                <img src="./img/funcional.png" alt="funcional" >
+                <h3>Funcional</h3>
+            </div>
+            <div class="container-card-class">
+                <img src="./img/box.png" alt="boxeo" >
+                <h3>Box</h3>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="contactanos" id="contacto">
+        <div class="container-contactanos">
+        <h2>Contactanos</h2>
+        <div class="form">
+        <form action="/procesar-formulario" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <br>
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" cols="30" required></textarea>
+          <br>
+          <input class="button-submit" type="submit" value="Enviar">
+        </div>
+    </div>
+        </form>
+
+
+    </section>
+
+  <script src="script.js"></script>
+
+</body>
+<footer>
+    <div class="footer">
+    <div class="ubicacion">
+        <p class="tex-footer">Nuestra Ubicación</p>
+        <iframe class="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.575992408003!2d-60.64634852491656!3d-32.96220227267342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7abdfdffe9683%3A0xfa25f2ae5ec3700d!2sHeroes%20Fitness%20Club!5e0!3m2!1ses-419!2sar!4v1682198256442!5m2!1ses-419!2sar" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank" ></iframe>
+    </div>
+  <div class="info">
+    <p class="tex-footer">Información General</p>
+    <ul>
+        <li>Héroes Fitness Club</li>
+        <li>Mitre 2156</li>
+        <li>Argentina</li>
+        <li>Santa Fe</li>
+        <li>Rosario</li>
+        <li>Escribinos por WP al : 341535804</li>
+        <li>mail: heroes@gmail.com</li>
+    </ul>
+  </div>
+  <div class="nav-footer">
+   <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#quienes-somos">Quienes Somos</a></li>
+        <li><a href="#nuestras-clases">Nuestras Clases</a></li>
+        <li><a href="#contacto">Contactanos</a></li>
+    </ul>
+    <div class="redes">
+        <a href="https://www.instagram.com/heroes_fitnessclub/" target="_blank"><i class="bi bi-instagram"></i></a></i>
+        <a href="https://api.whatsapp.com/send?phone=543415498762&text=%C2%A1Hola%20H%C3%A9roes!%20%F0%9F%A4%9F%F0%9F%8F%BC" target="_blank"><i class="bi bi-whatsapp"></i></a>
+
+    </div>
+  </div>
+
+  </div>
+<p class="derechos">© Todos los derechos reservados por HeroesFitnessClub ©</p>
+</footer>
+
+</html>
