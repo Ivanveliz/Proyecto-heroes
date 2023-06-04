@@ -127,10 +127,11 @@ h1 {
 /* botones de barra */
 .boton-abrir-menu,
 .boton-cerrar-menu {
+    font-size: 1rem;
   display: none;
   background-color: var(--clr-celeste);
-  margin: 1rem;
-  padding: 6px 8px;
+  margin: 0.5rem;
+  padding: .3rem .5rem;
   cursor: pointer;
   border: 0;
   border-radius: 0.5rem;
@@ -162,17 +163,17 @@ h2 {
 }
 
 .container-h2-p {
-    width: 50%;
+    width: 100%;
     padding: 1rem;
     text-align: center;
 }
 
 .container-pictures-section {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 1rem;
     padding: 1rem;
-    width: 45%;
+    width: 100%;
     flex-wrap: wrap;
 }
 
@@ -411,8 +412,13 @@ textarea {
       .container-pictures-section{
         flex-direction: column;
         width: 100%;
+        justify-content: center;
       }
-      .img-section-1{
+      .img-section{
+        display: flex;
+        justify-content: center;
+      }
+      .img-section-1, .img-section-2{
         max-width: 280px;
         width: 100%;
         aspect-ratio: 1/1;
