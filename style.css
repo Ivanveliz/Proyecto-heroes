@@ -177,11 +177,6 @@ h2 {
     flex-wrap: wrap;
 }
 
-.container-picture2 {
-    display: flex;
-    justify-content: flex-end;
-}
-
 img {
     border-radius: 0.7rem;
 }
